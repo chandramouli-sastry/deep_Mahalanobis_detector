@@ -17,7 +17,7 @@ print(args)
 
 def main():
     # initial setup
-    dataset_list = ['cifar10', 'cifar100', 'svhn']
+    dataset_list = ['cifar10', 'cifar100']
     score_list = ['Mahalanobis_0.0', 'Mahalanobis_0.01', 'Mahalanobis_0.005', 'Mahalanobis_0.002', 'Mahalanobis_0.0014', 'Mahalanobis_0.001', 'Mahalanobis_0.0005']
     
     # train and measure the performance of Mahalanobis detector
@@ -25,9 +25,11 @@ def main():
     for dataset in dataset_list:
         print('In-distribution: ', dataset)
         outf = './output/' + args.net_type + '_' + dataset + '/'
-        out_list = ['svhn', 'imagenet_resize', 'lsun_resize']
-        if dataset == 'svhn':
-            out_list = ['cifar10', 'imagenet_resize', 'lsun_resize']
+        out_list = ['imagenet_c', 'lsun_c']
+        if dataset == 'cifar10':
+            out_list += ['cifar100']
+        else:
+            out_list += ['cifar10']
 
         list_best_results_out, list_best_results_index_out = [], []
         for out in out_list:
@@ -61,9 +63,11 @@ def main():
 
     for in_list in list_best_results:
         print('in_distribution: ' + dataset_list[count_in] + '==========')
-        out_list = ['svhn', 'imagenet_resize', 'lsun_resize']
-        if dataset_list[count_in] == 'svhn':
-            out_list = ['cifar10', 'imagenet_resize', 'lsun_resize']
+        out_list = ['imagenet_c', 'lsun_c']
+        if dataset_list[count_in] == 'cifar10':
+            out_list += ['cifar100']
+        else:
+            out_list += ['cifar10']
         count_out = 0
         for results in in_list:
             print('out_distribution: '+ out_list[count_out])

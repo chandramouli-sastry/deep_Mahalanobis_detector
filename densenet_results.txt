@@ -1,0 +1,41 @@
+Namespace(net_type='densenet')
+In-distribution:  cifar10
+Out-of-distribution:  imagenet_c
+Out-of-distribution:  lsun_c
+Out-of-distribution:  cifar100
+In-distribution:  cifar100
+Out-of-distribution:  imagenet_c
+Out-of-distribution:  lsun_c
+Out-of-distribution:  cifar10
+in_distribution: cifar10==========
+out_distribution: imagenet_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 84.24  95.27  89.97  92.82  96.12
+Input noise: Mahalanobis_0.0
+
+out_distribution: lsun_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 48.22  80.19  75.63  71.51  83.53
+Input noise: Mahalanobis_0.0
+
+out_distribution: cifar100
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 14.53  58.54  57.22  55.42  61.21
+Input noise: Mahalanobis_0.0
+
+in_distribution: cifar100==========
+out_distribution: imagenet_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 60.01  88.75  81.60  85.85  89.76
+Input noise: Mahalanobis_0.001
+
+out_distribution: lsun_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 42.06  81.65  74.04  77.71  83.29
+Input noise: Mahalanobis_0.005
+
+out_distribution: cifar10
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+  7.74  60.09  57.77  59.65  57.30
+Input noise: Mahalanobis_0.002
+

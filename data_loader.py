@@ -106,6 +106,14 @@ def getNonTargetDataSet(data_type, batch_size, input_TF, dataroot):
         dataroot = os.path.expanduser(os.path.join(dataroot, 'LSUN_resize'))
         testsetout = datasets.ImageFolder(dataroot, transform=input_TF)
         test_loader = torch.utils.data.DataLoader(testsetout, batch_size=batch_size, shuffle=False, num_workers=1)
+    elif data_type == 'lsun_c':
+        dataroot = os.path.expanduser(os.path.join(dataroot, 'LSUN'))
+        testsetout = datasets.ImageFolder(dataroot, transform=transforms.Compose([transforms.CenterCrop(32),input_TF]))
+        test_loader = torch.utils.data.DataLoader(testsetout, batch_size=batch_size, shuffle=False, num_workers=1)
+    elif data_type == 'imagenet_c':
+        dataroot = os.path.expanduser(os.path.join(dataroot, 'Imagenet'))
+        testsetout = datasets.ImageFolder(dataroot, transform=transforms.Compose([transforms.CenterCrop(32),input_TF]))
+        test_loader = torch.utils.data.DataLoader(testsetout, batch_size=batch_size, shuffle=False, num_workers=1)
     return test_loader
 
 
