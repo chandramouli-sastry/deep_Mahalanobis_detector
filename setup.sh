@@ -43,3 +43,8 @@ python OOD_Generate_Mahalanobis.py --dataset cifar10 --batch_size=64 --net_type 
 python OOD_Generate_Mahalanobis.py --dataset cifar100 --batch_size=64 --net_type densenet --gpu 0
 
 python OOD_Regression_Mahalanobis.py --net_type densenet > densenet_results.txt
+
+python OOD_Baseline_and_ODIN.py --net_type densenet --batch_size=64 --dataset cifar10 --gpu 0 > densenet_cifar10_odin.txt 
+python OOD_Baseline_and_ODIN.py --net_type densenet --batch_size=64 --dataset cifar100 --gpu 0 > densenet_cifar100_odin.txt 
+python OOD_Baseline_and_ODIN.py --net_type resnet --dataset cifar10 --gpu 0 > resnet_cifar10_odin.txt 
+python OOD_Baseline_and_ODIN.py --net_type resnet --dataset cifar100 --gpu 0 > resnet_cifar100_odin.txt 

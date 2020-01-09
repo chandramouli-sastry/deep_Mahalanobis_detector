@@ -1,0 +1,301 @@
+Namespace(batch_size=200, dataroot='./data', dataset='cifar10', gpu=2, net_type='resnet', num_classes=10, outf='./output/')
+load model: resnet
+load target data:  cifar10
+Files already downloaded and verified
+Files already downloaded and verified
+Temperature: 1 / noise: 0
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.0005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.001
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.0014
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.002
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.0024
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.01
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.05
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.1
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1 / noise: 0.2
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.0005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.001
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.0014
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.002
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.0024
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.01
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.05
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.1
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 10 / noise: 0.2
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.0005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.001
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.0014
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.002
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.0024
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.01
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.05
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.1
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 100 / noise: 0.2
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.0005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.001
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.0014
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.002
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.0024
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.005
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.01
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.05
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.1
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Temperature: 1000 / noise: 0.2
+Out-distribution: imagenet_c
+Out-distribution: lsun_c
+Files already downloaded and verified
+Files already downloaded and verified
+Out-distribution: cifar100
+Baseline method: in_distribution: cifar10==========
+out_distribution: imagenet_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 46.37  91.40  85.35  92.90  88.78
+
+out_distribution: lsun_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 48.60  91.90  86.26  93.34  89.49
+
+out_distribution: cifar100
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 33.30  86.36  80.36  86.79  83.42
+
+ODIN method: in_distribution: cifar10==========
+out_distribution: imagenet_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 68.68  93.13  85.19  93.44  93.09
+temperature: 10
+magnitude: 0.0014
+
+out_distribution: lsun_c
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 62.03  91.23  82.41  91.61  91.43
+temperature: 10
+magnitude: 0.0014
+
+out_distribution: cifar100
+ TNR    AUROC  DTACC  AUIN   AUOUT 
+ 42.04  85.80  78.59  85.29  84.81
+temperature: 1000
+magnitude: 0.0005
+

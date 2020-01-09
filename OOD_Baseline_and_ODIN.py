@@ -40,8 +40,10 @@ def main():
         args.num_classes = 100
     if args.dataset == 'svhn':
         out_dist_list = ['cifar10', 'imagenet_resize', 'lsun_resize']
-    else:
-        out_dist_list = ['svhn', 'imagenet_resize', 'lsun_resize']
+    elif args.dataset == "cifar10":
+        out_dist_list = ['imagenet_c', 'lsun_c', 'cifar100']
+    elif args.dataset == "cifar100":
+        out_dist_list = ['imagenet_c', 'lsun_c', 'cifar10']
         
     # load networks
     if args.net_type == 'densenet':
@@ -49,7 +51,9 @@ def main():
             model = models.DenseNet3(100, int(args.num_classes))
             model.load_state_dict(torch.load(pre_trained_net, map_location = "cuda:" + str(args.gpu)))
         else:
-            model = torch.load(pre_trained_net, map_location = "cuda:" + str(args.gpu))
+            model = models.DenseNet3(100, int(args.num_classes))
+            model.load_state_dict(torch.load(pre_trained_net, map_location = "cpu").state_dict(),strict=False)
+            model = model.cuda(args.gpu)
         in_transform = transforms.Compose([transforms.ToTensor(), transforms.Normalize((125.3/255, 123.0/255, 113.9/255), (63.0/255, 62.1/255.0, 66.7/255.0)),])
     elif args.net_type == 'resnet':
         model = models.ResNet34(num_c=args.num_classes)
