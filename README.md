@@ -1,3 +1,6 @@
+## Change log
+Added a setup.sh file and made necessary changes to extract detection results on cropped versions of LSUN and TinyImageNet and the CIFAR counterparts. Running the setup.sh yields the <i>resnet_results.txt</i> and <i>densenet_results.txt</i> files.
+
 # A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
 
 This project is for the paper "[A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks](https://arxiv.org/abs/1807.03888)". Some codes are from [odin-pytorch](https://github.com/facebookresearch/odin), [LID](https://github.com/xingjunm/lid_adversarial_subspace_detection), and [adversarial_image_defenses](https://github.com/facebookresearch/adversarial_image_defenses).
