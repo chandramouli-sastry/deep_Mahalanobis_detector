@@ -1,5 +1,5 @@
 ## Change log
-Added a setup.sh file and made necessary changes to extract detection results on cropped versions of LSUN and TinyImageNet and the CIFAR counterparts. Running the setup.sh yields the <i>resnet_results.txt</i> and <i>densenet_results.txt</i> files.
+Added a setup.sh file and made necessary changes to extract detection results on cropped versions of LSUN and TinyImageNet and the CIFAR counterparts. Running the setup.sh yields the <i>resnet_results.txt</i> and <i>densenet_results.txt</i> files along with <i>*_odin.txt</i> files.
 
 # A Simple Unified Framework for Detecting Out-of-Distribution Samples and Adversarial Attacks
 
